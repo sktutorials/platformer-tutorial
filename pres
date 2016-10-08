@@ -1,0 +1,64 @@
+how to make a (semi-)professional platformer
+
+this series will cover my
+* thought process
+* development process
+* artistic process (to an extent)
+
+step 1
+
+prototype
+
+@love.png
+
+lua + love2d
+* fast (development)
+* flexible
+* safe
+
+step 2
+
+implement engine
+
+(according to prototype)
+
+C + Compatability Layer
+
+C
+* wicked fast
+* clean
+* simple to use ABI (external scripting?)
+* portable
+
+compatability layer
+* 'cause i don't want to write win32 crap
+* 'cause X kinda blows
+* 'cause ObjC is terrible (and Swift isn't that much better)
+
+now you've finished 80% of the work
+
+step 3
+
+polish game/engine
+
+this is the final 80% of work
+
+polish gives a game that
+JE NE SE QUOS
+that makes it fun to play
+
+the funness factor is also influenced by the underlying mechanics
+
+but it's heavily affected by the polish
+
+then
+
+ITS PARTY TIME
+
+release game on itch.io or something...
+
+\
+
+time for the first part
+
+develop a protoype platformer in Love2D
