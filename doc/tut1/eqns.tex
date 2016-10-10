@@ -1,0 +1,32 @@
+\documentclass[multi={mymath},border=1pt]{standalone}
+% \usepackage{amsmath}
+\newenvironment{mymath}{$\displaystyle}{$}
+\renewcommand{\vec}[1]{\mathbf{#1}}
+
+\begin{document}
+
+\begin{mymath}
+      \vec{pos} = \vec{pos} + dt * \vec{vel}
+\end{mymath}
+
+\begin{mymath}
+      \vec{vel} = \vec{vel} + dt * \vec{acc}
+\end{mymath}
+
+\begin{mymath}
+      vel_{x} = vel_{x} + dir * k_{accelerate step}
+\end{mymath}
+
+\begin{mymath}
+      vel_{x} = vel_{x} + dir * k_{decelerate step}
+\end{mymath}
+
+\begin{mymath}
+      vel_{x} = vel_{x} + -1 * sgn(vel_{x}) * k_{friction}
+\end{mymath}
+
+\begin{mymath}
+      vel_{y} = -k_{jump velocity}
+\end{mymath}
+
+\end{document}

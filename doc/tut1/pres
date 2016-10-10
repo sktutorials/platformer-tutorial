@@ -9,7 +9,7 @@ step 1
 
 prototype
 
-@love.png
+@res/love.png
 
 lua + love2d
 * fast (development)
@@ -30,7 +30,7 @@ C
 * simple to use ABI (external scripting?)
 * portable
 
-compatability layer
+use a compatability layer
 * 'cause i don't want to write win32 crap
 * 'cause X kinda blows
 * 'cause ObjC is terrible (and Swift isn't that much better)
@@ -51,14 +51,44 @@ the funness factor is also influenced by the underlying mechanics
 
 but it's heavily affected by the polish
 
-then
-
-ITS PARTY TIME
-
-release game on itch.io or something...
-
-\
+(≧ロ≦)
 
 time for the first part
 
-develop a protoype platformer in Love2D
+prototyping time
+
+* basic physics (using bump.lua)
+* player movement (!!!)
+
+\
+
+some explantion
+
+the points are just x, y pairs of previous player locations
+that are mushed together in a list
+
+(i.e. trail[0] is the x location, trail[1] is the y location)
+
+push new trails onto the front, pull old ones off the back
+
+@trail1.png
+
+@trail2.png
+
+\
+
+some explantion
+
+the normal is the vector pointing away from the face of the object
+
+@normal1.png
+
+@normal2.png
+
+@normal3.png
+
+so for a walljump...
+
+@walljump1.png
+
+@walljump2.png
