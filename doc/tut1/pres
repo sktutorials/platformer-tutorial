@@ -1,9 +1,26 @@
-how to make a (semi-)professional platformer
+how to make a polished platformer
+
+how to make a (semi-)polished platformer
 
 this series will cover my
 * thought process
 * development process
 * artistic process (to an extent)
+
+what you need to know
+* lua
+* love2d
+* basic programming/problem solving skill
+* basic math skill (~ trig)
+
+what you'll learn
+* simple prototyping
+* c
+* c's crazy things
+    * pointers
+    * memory management
+    * undefined behavior
+    * debugging
 
 step 1
 
@@ -59,6 +76,8 @@ prototyping time
 
 * basic physics (using bump.lua)
 * player movement (!!!)
+* fighting mechanics
+* basic enemy ai
 
 \
 

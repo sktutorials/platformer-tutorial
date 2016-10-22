@@ -3,6 +3,7 @@ gamera = require 'gamera'
 timer = require 'timer'
 v2 = require 'v2'
 require 'util'
+require 'lovedebug'
 
 gravity = v2(0, 300)
 maxV = 1000
@@ -26,7 +27,7 @@ function level:draw()
     end
 end
 
-level:addElem(0, 600, 100, 300,
+level:addElem(0, 400, 100, 300,
 function(self, x, y, w, h)
     love.graphics.rectangle('line', x, y, w, h)
 end)
